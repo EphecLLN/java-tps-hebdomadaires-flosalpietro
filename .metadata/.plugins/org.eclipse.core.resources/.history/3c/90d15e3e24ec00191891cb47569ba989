@@ -1,0 +1,23 @@
+package tp1;
+
+public class Livre {
+	
+	private String titre;
+	private String nom;
+	private String numISBN;
+
+	public Livre(String titre, String nom, String numISBN){
+		this.titre = titre;
+		this.nom = nom;
+		this.numISBN = numISBN;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Livre Livre1  = new Livre ("Les lettres de mon moulin","Alphonse Daudet","1234567890");
+		
+		System.out.println(Livre1);
+
+	}
+
+}

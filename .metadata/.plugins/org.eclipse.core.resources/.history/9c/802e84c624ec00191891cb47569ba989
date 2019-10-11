@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package tp1;
+
+/**
+ * @author Florence
+ *
+ */
+public class IP {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

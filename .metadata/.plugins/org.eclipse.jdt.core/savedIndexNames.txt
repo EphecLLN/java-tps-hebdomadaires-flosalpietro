@@ -1,0 +1,3 @@
+INDEX VERSION 1.129+C:\Users\Florence\Desktop\Ephec\Java\TP\java-tps-hebdomadaires-flosalpietro\.metadata\.plugins\org.eclipse.jdt.core
+542094340.index
+3108431294.index
