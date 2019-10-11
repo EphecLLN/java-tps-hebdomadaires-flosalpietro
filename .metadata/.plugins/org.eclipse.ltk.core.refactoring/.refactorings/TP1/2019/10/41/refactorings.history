@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;TP2/tp2&apos;&#x0D;&#x0A;- Original project: &apos;TP1&apos;&#x0D;&#x0A;- Destination element: &apos;TP2/tp2&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     tp1.Livre.java&#x0D;&#x0A;     tp1.IP.java" description="Copy compilation units" destination="=TP2/&lt;tp2" element1="/&lt;tp1{Livre.java" element2="/&lt;tp1{IP.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1570799734063" units="2" version="1.0"/>
+</session>

@@ -8,10 +8,17 @@ package tp2;
 public class Etudiant {
 	//Variables d'instance
 	private String nom;
-	private String prenom;
+	private String prénom;
 	private int matricule;
 	//Cette variable d'instance est du type Date, disponible dans le même package
 	private Date dateNaissance;
+	
+	
+	
+	
+	
+	
+	
 	
 	/**
 	 * @param nom
@@ -19,10 +26,10 @@ public class Etudiant {
 	 * @param matricule
 	 * @param dateNaissance
 	 */
-	public Etudiant(String nom, String prenom, int matricule, Date dateNaissance) {
+	public Etudiant(String nom, String prénom, int matricule, Date dateNaissance) {
 		super();
 		setNom(nom);
-		setPrenom(prenom);
+		setPrénom(prénom);
 		this.matricule = matricule;
 		this.dateNaissance = dateNaissance;
 	}
@@ -34,10 +41,13 @@ public class Etudiant {
 	public Etudiant() {
 		super();
 		setNom("Toto");
-		setPrenom("Dupont");
+		setPrénom("Dupont");
 		this.matricule = 1234;
 		this.dateNaissance = new Date();
 	}
+
+
+
 
 
 	/**
@@ -57,15 +67,15 @@ public class Etudiant {
 	/**
 	 * @return the prénom
 	 */
-	public String getPrenom() {
-		return prenom;
+	public String getPrénom() {
+		return prénom;
 	}
 
 	/**
 	 * @param prénom the prénom to set
 	 */
-	public void setPrenom(String prenom) {
-		this.prenom = prenom;
+	public void setPrénom(String prénom) {
+		this.prénom = prénom;
 	}
 
 
@@ -96,14 +106,14 @@ public class Etudiant {
 	 * @param dateNaissance date dont l'année est plus grande que 1900
 	 */
 	public void setDateNaissance(Date dateNaissance) {
-		if(dateNaissance.annee > 1900) {
+		if(dateNaissance.année > 1900) {
 			this.dateNaissance = dateNaissance;
 		}
 		//else Notification d'erreur
 	}
 
 	public String toString() {
-		return "L'étudiant s'appelle " + prenom + " " + nom; 
+		return "L'étudiant s'appelle " + prénom + " " + nom; 
 	}
 
 
@@ -114,12 +124,12 @@ public class Etudiant {
 	public static void main(String[] args) {
 		Etudiant etu = new Etudiant();
 		etu.setNom(args[0]);
-		etu.setPrenom(args[1]);
+		etu.setPrénom(args[1]);
 		etu.setMatricule(Integer.parseInt(args[2]));
 		Date dateNaissance = new Date();
 		dateNaissance.jour = Integer.parseInt(args[3]);
 		dateNaissance.mois = Integer.parseInt(args[4]);
-		dateNaissance.annee = Integer.parseInt(args[5]);
+		dateNaissance.année = Integer.parseInt(args[5]);
 		etu.setDateNaissance(dateNaissance);
 		System.out.println(etu);
 	}
